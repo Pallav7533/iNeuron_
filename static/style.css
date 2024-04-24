@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    background-image: url("https://images.pexels.com/photos/952356/pexels-photo-952356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 10% auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .login h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #333;
+  }
+  
+  .login form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .login form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .login form button:hover {
+    background: #45a049;
+  }
+  
+  .login form button:focus {
+    outline: none;
+  }
+  
+  .login form input:focus {
+    outline: none;
+  }
+  
